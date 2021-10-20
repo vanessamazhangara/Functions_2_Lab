@@ -10,8 +10,8 @@ const exclaim = function(str) {
 }
 
 // arrow
-// declaration
-// expression
+ // declaration
+// expression ANSWeER
 
 
 
@@ -26,7 +26,7 @@ const exclaimTwo = str => {
   return str.toUpperCase() + '!!!'
 }
 
-// arrow
+ // arrow ANSWER
 // declaration
 // expression
 
@@ -37,7 +37,8 @@ const exclaimTwo = str => {
   Brownie points if you use a template string
 */
 
-
+const exclaimThree = str => str.toUpperCase() + '!!!'
+ 
 
 ////////// PROBLEM 3 //////////
 
@@ -51,7 +52,7 @@ function exclaimFour(str) {
 }
 
 // arrow
-// declaration
+ // declaration ANSWER
 // expression
 
 
@@ -64,6 +65,9 @@ function exclaimFour(str) {
 
 //CODE HERE
 
+const jsNinja = () => 'I am a JavaScript Ninja'
+
+console.log(jsNinja())
 
 
 ////////// PROBLEM 5 //////////
@@ -78,8 +82,14 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
-
-  
+const compareNums = (num1, num2) => {
+  if (num1 > num2) {
+    return num1
+  } else {
+    return num2
+  }
+}
+  console.log(compareNums(2,4))
 ////////// PROBLEM 6 //////////
 
 /*
@@ -94,3 +104,7 @@ function exclaimFour(str) {
 */
 
 //CODE HERE
+
+const bestMovie = (movieTitle) => `${movieTitle} is the best movie ever!`
+
+console.log(bestMovie('Titanic'))
